@@ -108,13 +108,14 @@ const LayoutBase = props => {
           </div>
         </main>
 
-        {/* 左下角悬浮 */}
+        {/* 左下角悬浮 제거
         <div className='bottom-4 -left-14 fixed justify-end z-40'>
           <Live2D />
-        </div>
+        </div>*/}
 
-        {/* 右下角悬浮 */}
+        {/* 右下角悬浮 제거
         <RightFloatButtons {...props} floatRightBottom={floatRightBottom} />
+        */}
 
         {/* 全文搜索 */}
         <AlgoliaSearchModal cRef={searchModal} {...props} />
